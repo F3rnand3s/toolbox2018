@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <title>Uma: Residências Universitárias</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <form action="#" class="search">
+                <input type="text" class="search__input" placeholder="Pesquisar residências">
+                <button class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="symbol-defs.svg#icon-search"></use>
+                    </svg>
+                </button>
+            </form>
+
+            <nav class="user-nav">
+                <div class="user-nav__icon_box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="symbol-defs.svg#icon-bookmark"></use> 
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon_box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="symbol-defs.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="https://napasummit.org/wp-content/uploads/2018/10/avatar-250x250.png" alt="User Photo" class="user-nav__user-photo">
+                    <span class="user-nav__user-name">User_01</span>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="symbol-defs.svg#icon-home3"></use>
+                            </svg>
+                            <span>Quartos</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="symbol-defs.svg#icon-cart"></use>
+                            </svg>
+                            <span>Receção</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="symbol-defs.svg#icon-bowl"></use>
+                            </svg>
+                            <span>Bar</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="symbol-defs.svg#icon-gamepad"></use>
+                            </svg>
+                            <span>Espaços</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    Copyright &copy; UNIVERSIDADE da Madeira
+                </div>
+            </nav>
+
+            <main class="residencia-view">
+                <div class="gallery">
+                    <figure class="gallery__photo">
+                        <img src="https://s-ec.bstatic.com/images/hotel/max1280x900/120/120695398.jpg" alt="quartos da residência" class="gallery__photo">
+                    </figure>
+
+                    <figure class="gallery__photo">
+                        <img src="https://t-ec.bstatic.com/images/hotel/max1280x900/110/110073856.jpg" alt="quartos da residência" class="gallery__photo">
+                    </figure>
+
+                    <figure class="gallery__photo">
+                        <img src="https://s-ec.bstatic.com/images/hotel/max1280x900/134/134632118.jpg" alt="receção" class="gallery__photo">
+                    </figure>
+                    
+                    <figure class="gallery__photo">
+                        <img src="https://t-ec.bstatic.com/images/hotel/max1280x900/110/110073856.jpg" alt="bar" class="gallery__photo">
+                    </figure>
+                                    <!-- em vez de photo tava item -->
+                    <figure class="gallery__photo">
+                        <img src="https://s-ec.bstatic.com/images/hotel/max1280x900/120/120695398.jpg" alt="espaço" class="gallery__photo">
+                    </figure>
+                </div>
+                
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        RESIDENCIA NOSSA SRª DAS VITÓRIAS
+                    </h1>
+
+                    <div class="overview__stars">
+                        <svg class="overview__icon-stars">
+                            <use xlink:href="symbol-defs.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview__icon-stars">
+                            <use xlink:href="symbol-defs.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview__icon-stars">
+                            <use xlink:href="symbol-defs.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview__icon-stars">
+                            <use xlink:href="symbol-defs.svg#icon-star-full"></use>
+                        </svg>
+                        <svg class="overview__icon-stars">
+                            <use xlink:href="symbol-defs.svg#icon-star-empty"></use>
+                        </svg>
+                    </div>
+            
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="symbol-defs.svg#icon-location"></use>
+                        </svg>
+                        <button class="btn-inline">Rua de santa maria, nº1337</button>
+                    </div>
+                    
+
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">429 Votos</div>
+                    </div>
+                </div>
+
+                <!-- check if detail is well placed -->
+            <div class="detail">
+                <div class="description">
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eaque.</p>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nobis.</p>
+                
+                    <ul class="list">
+                        <li class="list__item">31 Duplos (beliches)</li>
+                        <li class="list__item">45 Triplos (beliche + cama)</li>
+                        <li class="list__item">6 Duplos para alunos NEE</li>
+                        <li class="list__item">Cozinha equipada</li>
+                        <li class="list__item">Sala de Convívio</li>
+                        <li class="list__item">Jardins</li>
+                        <li class="list__item">Snack-Bar</li>
+                        <li class="list__item">Gabinete Médico</li>
+                    </ul>
+                    
+                    <div class="recommend">
+                        <p class="recommend_count">
+                            Anónimo e outros 3 estudantes recomendam esta residência 
+                        </p>
+                        <div class="recommend__friends">
+                            <img src="https://avatars3.githubusercontent.com/u/44034816?s=88&v=4" alt="foto" class="recommend__photo">
+                            <img src="https://avatars3.githubusercontent.com/u/43825239?s=88&v=4" alt="foto" class="recommend__photo">
+                            <img src="https://avatars3.githubusercontent.com/u/43825275?s=88&v=4" alt="foto" class="recommend__photo">
+                            <img src="https://avatars3.githubusercontent.com/u/43825290?s=88&v=4" alt="foto" class="recommend__photo">
+                        </div>
+                    </div>
+
+                    
+
+
+
+                </div>
+
+                <!-- TAVAS NO SLIDE 25/31 -->
+                <div class="user-reviews">
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus?
+                        </blockquote>
+                        <figcaption class="review__user">
+                            <img src="https://avatars3.githubusercontent.com/u/44034816?s=88&v=4" alt="foto" class="review__photo">
+                            <div class="review__user-box">
+                                <p class="review__user-name">Anónimo</p>
+                                <p class="review__user-country">Venezuela</p>
+                            </div>
+                            <div class="review__rating">7.8</div>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="review">
+                        <blockquote class="review__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, minus?
+                        </blockquote>
+                        <figcaption class="review__user">
+                            <img src="https://avatars3.githubusercontent.com/u/43825275?s=88&v=4" alt="foto" class="review__photo">
+                            <div class="review__user-box">
+                                <p class="review__user-name">Anónimo</p>
+                                <p class="review__user-country">Marrocos</p>
+                            </div>
+                            <div class="review__rating">8.1</div>
+                        </figcaption>
+                    </figure>
+                    
+                    <button class="btn-inline">Mostrar Todos <span>&rarr;</span></button> 
+                </div>
+            </div>
+
+            </main>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

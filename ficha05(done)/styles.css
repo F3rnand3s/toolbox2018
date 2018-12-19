@@ -1,0 +1,57 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse ; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* display:flex;  */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* display: flex;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    */
+    
+    /* display: flex;
+    align-items: stretch;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline; */
+
+    /* display: flex;
+    align-content: stretch;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;
+     */
+
+}
+
+.quadrado{
+    width:50px;
+    height:50;
+    margin:10px;
+    background-color:green;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+
+/* .flex-item{
+    order: #;
+    flex-shrink:#;
+    flex-grow:#;
+    flex-basis:#;
+    flex:#;
+    
+    align-self:#;
+} */

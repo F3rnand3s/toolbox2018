@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+    background-color: lightgrey;
+}
+
+#fundo {
+    background-image: url('https://www.sandboxsuites.com/wp-content/uploads/2015/09/dark-office-web.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#fundo .button{
+    text-decoration: none;
+    color: white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+
+#fundo .button:hover{
+    background-color: white;
+    color: black;
+}
+
+.painel {
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 0 0 40px 0 rgba (0, 0, 0, 0.5);
+    text-align: justify;
+    overflow: hidden;
+    color: grey;
+
+}
+
+.painel .painel_título{
+    color: steelblue;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.quadrado{
+    background-color: lightblue;
+    border: 3px solid black; 
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* height: 100vh; */
+}
